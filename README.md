@@ -56,11 +56,9 @@ Developed by: [Dr. Marzia Ahmed](mailto:ahmed.marzia32@gmail.com?Subject=GBO_QUE
 
 
 
-## 🧪 Example Usag
+## 🧪 Example Usage
 
 ```python
-from gbo import GooseneckBarnacleOptimizer
-
 def objective_function(x):
     # Example: Sphere function
     return sum(x**2)
