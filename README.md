@@ -56,7 +56,7 @@ Developed by: [Dr. Marzia Ahmed](mailto:ahmed.marzia32@gmail.com?Subject=GBO_QUE
 
 
 
-## 🧪 Example Usage
+## 🧪 Example Usag
 
 ```python
 from gbo import GooseneckBarnacleOptimizer
@@ -75,5 +75,18 @@ best_solution, best_fitness = optimizer.optimize()
 print("Best solution:", best_solution)
 print("Best fitness:", best_fitness)
 
+## Alternative:
+if __name__ == "__main__":
+    pop_size = 30
+    dimensions = 10
+    lb = -10  # lower bound
+    ub = 10   # upper bound
+    max_iter = 100
+
+    best_position, best_fitness = GBO(objective_function, pop_size, dimensions, lb, ub, max_iter)
+
+    print("Best solution found:")
+    print("Position:", best_position)
+    print("Fitness:", best_fitness)
 ...
 
