@@ -41,11 +41,6 @@ If you use this implementation in your research or publication, please cite the 
   
 Marzia Ahmed, Mohd Herwan Sulaiman, Ahmad Johari Mohamad, “Gooseneck Barnacle Optimization Algorithm: A Novel Nature-Inspired Metaheuristic,” Mathematics and Computers in Simulation, Elsevier, 2023. https://doi.org/10.1016/j.matcom.2023.07.012
 
-** File Structure**
-GBO_Original.ipynb — Python class implementing the GBO algorithm
-example_usage.py — Sample script for testing GBO
-README.md — Documentation and citation
-requirements.txt — Package dependencies
 
 # Contributing
 
